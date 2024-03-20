@@ -1,0 +1,31 @@
+{
+  "name": "server",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "nest build",
+    "start": "nest start",
+    "dev": "nest start --watch",
+    "start:debug": "nest start --debug --watch",
+    "start:prod": "node dist/main"
+  },
+  "dependencies": {
+    "@fastify/cors": "^9.0.1",
+    "@fastify/multipart": "^8.1.0",
+    "@nestjs/common": "^10.3.4",
+    "@nestjs/config": "^3.2.0",
+    "@nestjs/core": "^10.3.4",
+    "@nestjs/platform-fastify": "^10.3.4",
+    "@ts-rest/nest": "^3.36.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^10.3.2",
+    "@nestjs/schematics": "^10.1.1",
+    "@types/node": "20.11.30",
+    "source-map-support": "^0.5.20",
+    "ts-loader": "^9.5.1",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "4.2.0"
+  }
+}
